@@ -1,0 +1,749 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 110%;
+}
+
+
+.Navigation{
+    background-color:#ffc547;
+    width: 100%;
+    height: 10%;
+    display:flex;
+}
+
+.HeroSection{
+    width: 100%;
+    height:150%;
+}
+
+
+.welcome{
+    border-bottom: 2px solid #042a54;
+    width:100%;
+    height:10%;
+    position: relative;
+    top: 32rem;
+}
+
+.Footer{
+    background-color:#042a54;
+    width:100%;
+    height:22%;
+    display:flex;
+    color:white;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.navi{
+    background-color: #ffc547;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.sawir{
+    width:3.5rem;
+    height:3.5rem;
+}
+
+.topnav{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+
+.a{ 
+    text-decoration: none;
+    color:#042a54;
+    padding: 18px;
+    margin:0;
+    font-weight: bold;
+}
+
+
+.a1{
+    text-decoration: none;
+    color:#042a54;
+    padding: 18px;
+    margin:0;
+    font-weight: bold;
+    color: black;
+    background-color:white;
+    border-bottom:2px solid #042a54;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 15px #042a54;
+}
+
+.a:hover{
+    color:white;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    text-shadow:1px 1px 15px #042a54 ;
+}
+
+
+.body1{
+    width:100%;
+    height:55%;
+    background-image: url(Photo/r.jpg);
+    background-position: 1px;
+}
+
+.body2{
+    background-image: linear-gradient(#ffebcd, white);
+    width:100%;
+    height:70%;
+    position:relative;
+}
+
+.body3{
+    width:100%;
+    height:25%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+
+.h1{
+    padding:3rem 0 0 1rem;
+    color: #042a54;
+    text-shadow: 3px 3px 7px white;
+    font-size: 4rem;
+}
+
+
+.types{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+}
+
+.premium{
+    background-color: #042a54;
+    width: 20%;
+    height: 53%;
+    margin: 2rem;
+    border-radius:1rem;
+    box-shadow: 1px 1px 20px #696969;
+}
+
+
+
+.expert{
+    background-color: #04458f;
+    width: 20%;
+    height: 53%;
+    margin: 2rem;
+    border-radius:1rem;
+    box-shadow: 1px 1px 20px #696969;
+}
+
+
+.basic{
+    background-color:#1163bd;
+    width: 20%;
+    height: 53%;
+    margin: 2rem;
+    border-radius:1rem;
+    box-shadow: 1px 1px 20px #696969;
+}
+
+.beds{
+    width:100%;
+    height:12rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.ciwaan{
+    position:relative;
+    bottom: 6rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+.p{
+    margin-bottom:0.7rem;
+    max-width:85%;
+}
+
+
+.yellow{
+    color: #ffc547;
+}
+
+.shadow{
+    text-shadow:2px 1px 20px #292929 ;
+}
+
+
+.bottom{
+    background-color: #04458f;
+    width: 100%;
+    height: 15%;
+    position: relative;
+    bottom: 4.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.price{
+    color:white;
+    padding-left: 10px;
+}
+
+.rentnow{
+    background-color: #ffc547;
+    color:#042a54;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.text{
+    color:#ffc547;
+    text-align:center;
+}
+
+.textcontainer{
+    background-color: #042a54;
+    width:70%;
+    height:50%;
+    padding: 2rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+
+   /* Footer Section  */
+
+.about{
+    width: 45%;
+    height: 100%;
+    border-right:3px solid white;
+}
+
+
+.links{
+    width: 25%;
+    height: 100%;
+    border-right:3px solid white;
+}
+
+
+.address{
+    width: 30%;
+    height: 100%;
+}
+
+.footertitle1{
+    margin: 15px;
+    border-bottom: 2px solid #ffc547;
+    width: 25rem;
+}
+
+.footertitle{
+    margin: 15px;
+    border-bottom: 2px solid #ffc547;
+    width: 17rem;
+}
+
+.simid{
+    margin: 15px;
+}
+
+.p2{
+    font-size: 20px;
+    max-width: 33rem;
+}
+
+
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.anchor:hover {
+    background-color: #ffc547;
+    color:#042a54;
+    width: 6rem;
+    text-align: center;
+    border-radius:3px;
+}
+
+
+.gudaha{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.location{
+    width: 90%;
+    height: 30%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.ficon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.locationtext{
+    color: white;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Service page Css */
+
+
+
+.HeroSection2{
+    width: 100%;
+    height:130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Footer2{
+    background-color:#042a54;
+    width:100%;
+    height:34%;
+    display:flex;
+    color:white;
+}
+
+.onetext{
+    width:100%;
+    height:20%;
+}
+
+
+.qoraltex{
+    width:100%;
+    height:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.emty{
+    width:100%;
+    height:10%;
+}
+
+.sections1{
+    width:95%;
+    height:50%;
+    display: flex;
+}
+
+.sections2{
+    width:95%;
+    height:50%;
+    display: flex;
+}
+
+
+.servicetypes1{
+    width:33.33%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.servicetypes2{
+    width:33.33%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.servicetypes3{
+    width:33.33%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+
+
+.firtstitle{
+    color: #042a54;
+    text-align: left;
+    margin-left:3rem;
+    margin-top:6rem;
+    margin-bottom: 1rem;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fff{
+    background-color: #ffc547;
+    color: #042a54;
+    width: 10rem;
+    padding: 5px 10px 9px 3rem;
+    border-bottom-right-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sp{
+    color: #042a54;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+
+.sicons{
+    width: 12rem;
+    height: 12rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page Css */
+
+
+
+.HeroSection3{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.onetext1{
+    width:100%;
+    height:70%;
+}
+
+
+.firtstitle1{
+    color: #042a54;
+    text-align: left;
+    margin-left:3rem;
+    margin-bottom: 1rem;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.discrip{
+    color:black;
+    max-width: 90%;
+    text-align: left;
+    margin-left:3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.discrip2{
+    color:black;
+    max-width: 90%;
+    text-align: left;
+    margin-left:3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.fff1{
+    background-color: #ffc547;
+    color: #042a54;
+    width: 24.5rem;
+    padding: 5px 10px 9px 3rem;
+    border-bottom-right-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact page Css */
+
+
+
+.HeroSection3{
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+
+
+.formcontainer{
+    width:100%;
+    height: 70%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.form{
+    background-color: #042a54;
+    width:33%;
+    height:70%;
+    border-radius:1.5rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top:4rem;
+    padding-bottom:2rem;
+}
+
+
+.inputs{
+    width:85%;
+    height:13%;
+    margin-top:1rem;
+    padding: 10px;
+    font-size: 19px;
+    outline: 0;
+    border: 2px solid #042a54;
+}
+
+
+.inputs:focus{
+    width:85%;
+    height:13%;
+    margin-top:1rem;
+    padding: 10px;
+    font-size: 19px;
+    outline: 0;
+    border: 2px solid #ffc547;
+}
+
+
+
+.textarea{
+    width:85%;
+    height:35%;
+    margin-top:1rem;
+    padding: 10px;
+    font-size: 19px;
+}
+
+
+.textarea:focus{
+    outline:0;
+    width:85%;
+    height:35%;
+    margin-top:1rem;
+    padding: 10px;
+    font-size: 19px;
+    border: 2px solid #ffc547;
+}
+
+
+.button{
+    background-color: #042a54;
+    color:white;
+    border-radius:0.6rem;
+    border: 2px solid white;
+    margin-top:1rem;
+    padding: 10px 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+.contactholder{
+    width: 100%;
+    height:13%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contactdetails{
+    background-color:white;
+    width:8rem;
+    height:8rem;
+    margin:10px;
+    position:relative;
+    top: 1rem;
+    box-shadow: 0px 0px 15px #838383;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 5px;
+}
+
+
+.first{
+    border-bottom-left-radius:1rem;
+}
+
+
+.last{
+    border-bottom-right-radius:1rem;
+}
+
+
+.contacticon{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 9px;
+}
+
+.locpar{
+    font-size: 9px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.sendbutton{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Textholder{
+    width:100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.context{
+    color:#042a54;
+    font-weight:bold;
+}
+
+
